@@ -307,6 +307,42 @@
           "markdownDescription": "Denies the ping command without any pre-configured scope."
         },
         {
+          "description": "Enables the start_preview command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-start-preview",
+          "markdownDescription": "Enables the start_preview command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the start_preview command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-start-preview",
+          "markdownDescription": "Denies the start_preview command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the stop_preview command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-stop-preview",
+          "markdownDescription": "Enables the stop_preview command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the stop_preview command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-stop-preview",
+          "markdownDescription": "Denies the stop_preview command without any pre-configured scope."
+        },
+        {
+          "description": "Enables the take_picture command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-take-picture",
+          "markdownDescription": "Enables the take_picture command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the take_picture command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-take-picture",
+          "markdownDescription": "Denies the take_picture command without any pre-configured scope."
+        },
+        {
           "description": "Default permissions for the plugin\n#### This default permission set includes:\n\n- `allow-ping`",
           "type": "string",
           "const": "default",
