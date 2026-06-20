@@ -295,18 +295,6 @@
       "type": "string",
       "oneOf": [
         {
-          "description": "Enables the ping command without any pre-configured scope.",
-          "type": "string",
-          "const": "allow-ping",
-          "markdownDescription": "Enables the ping command without any pre-configured scope."
-        },
-        {
-          "description": "Denies the ping command without any pre-configured scope.",
-          "type": "string",
-          "const": "deny-ping",
-          "markdownDescription": "Denies the ping command without any pre-configured scope."
-        },
-        {
           "description": "Enables the start_preview command without any pre-configured scope.",
           "type": "string",
           "const": "allow-start-preview",
@@ -343,10 +331,10 @@
           "markdownDescription": "Denies the take_picture command without any pre-configured scope."
         },
         {
-          "description": "Default permissions for the plugin\n#### This default permission set includes:\n\n- `allow-ping`",
+          "description": "Default permissions for the plugin: allows starting/stopping the camera preview and taking a picture.\n#### This default permission set includes:\n\n- `allow-start-preview`\n- `allow-stop-preview`\n- `allow-take-picture`",
           "type": "string",
           "const": "default",
-          "markdownDescription": "Default permissions for the plugin\n#### This default permission set includes:\n\n- `allow-ping`"
+          "markdownDescription": "Default permissions for the plugin: allows starting/stopping the camera preview and taking a picture.\n#### This default permission set includes:\n\n- `allow-start-preview`\n- `allow-stop-preview`\n- `allow-take-picture`"
         }
       ]
     }
